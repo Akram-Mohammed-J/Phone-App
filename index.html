@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Phone App</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="text-center text-dark my-4">
+      <h1 class="mb-4">Contact List</h1>
+      <form class="search">
+        <input class="form-control m-auto input-box" type="text" name="search" placeholder="Search Contact" />
+      </form>
+    </header>
+
+    <ul class="list-group contact mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <p>
+          Name:<span>Akram</span><br />
+          Mobile:<span>8072134998</span>
+        </p>
+        <div class=" d-flex justify-self-end">
+          <i class="far fa-trash-alt delete mx-2"></i>
+        </div>
+
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <p>
+          Name:<span>Aaisha</span><br />
+          Mobile:<span>8072134998</span>
+        </p>
+        <div class=" d-flex justify-self-end">
+          <i class="far fa-trash-alt delete mx-2"></i>
+        </div>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <p>
+          Name:<span>Abrar</span><br />
+          Mobile:<span>8072134998</span>
+        </p>
+        <div class=" d-flex justify-self-end">
+          <i class="far fa-trash-alt delete mx-2"></i>
+        </div>
+      </li>
+    </ul>
+
+    <form class="add text-center my-4">
+      <input class="form-control my-2 input-box name" type="text" name="add" placeholder="Enter a Name" required />
+      <input class="form-control my-2 input-box mobile" type="number" placeholder="Enter a Mobile Number" required />
+      <button type="submit" class="btn btn-success">Add Contact</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

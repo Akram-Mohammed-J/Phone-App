@@ -1,0 +1,26 @@
+body {
+  background: #ffffff;
+}
+.container {
+  max-width: 400px;
+}
+.input-box,
+.input-box:focus {
+  color: rgb(0, 0, 0);
+  border: none;
+  background: rgba(177, 175, 175, 0.726);
+  max-width: 400px;
+}
+
+.contact li {
+  background: #626263;
+}
+.delete {
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
